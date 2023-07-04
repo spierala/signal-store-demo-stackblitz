@@ -9,7 +9,10 @@ import { AppModule } from './app/app.module';
   standalone: true,
   imports: [CommonModule, AppModule],
   template: `
-    bla
+  <h1>Hello from {{name}}!</h1>
+  <a target="_blank" href="https://angular.io/start">
+    Learn more about Angular 
+  </a>
   `,
 })
 export class App {
