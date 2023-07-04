@@ -9,7 +9,7 @@ import { AppModule } from './app/app.module';
   standalone: true,
   imports: [CommonModule, AppModule],
   template: `
-    <app-root></app-root>
+    bla
   `,
 })
 export class App {
